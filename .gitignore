@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# MacOS artifacts
+.DS_Store
+
+# VS Code artifacts
+.mypy_cache/
