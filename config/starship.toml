@@ -1,0 +1,22 @@
+add_newline = false
+
+[character]
+success_symbol = "[❯](bold #FF69CC)"
+error_symbol = "[❯](bold #FF4566)"
+vicmd_symbol = "[❮](bold #FF69CC)"
+
+[directory]
+truncation_length = 1
+style = "bold bright-cyan"
+
+[cmd_duration]
+format = "[$duration]($style) "
+
+[time]
+disabled = true
+# format = '  [$time]($style) '
+time_format = "%I:%M %p"
+
+[nodejs]
+disabled = true
+
