@@ -10,9 +10,9 @@ yabai -m config layout bsp
 padding_size=10
 yabai -m config top_padding    $padding_size
 yabai -m config bottom_padding $padding_size
-yabai -m config left_padding   $padding_size 
-yabai -m config right_padding  $padding_size 
-yabai -m config window_gap     $padding_size 
+yabai -m config left_padding   $padding_size
+yabai -m config right_padding  $padding_size
+yabai -m config window_gap     $padding_size
 
 # set mouse interaction modifier key (default: fn)
 yabai -m config mouse_modifier fn
@@ -35,10 +35,13 @@ yabai -m config window_shadow float
 yabai -m config window_opacity on
 yabai -m config active_window_opacity 1.0
 yabai -m config normal_window_opacity 0.9
+yabai -m rule --add app="^Code$" opacity=0.92
+yabai -m rule --add app="^Sonic Pi$" opacity=0.9
 
 # float system preferences
 yabai -m rule --add app="Preferences" manage=off
 yabai -m rule --add app="Install" manage=off
+yabai -m rule --add app="Parallels" manage=off
 
 # show digital colour meter topmost and on all spaces
 yabai -m rule --add app="^Digital Colou?r Meter$" sticky=on

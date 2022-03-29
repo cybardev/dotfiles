@@ -1,5 +1,5 @@
 # float currently focused window
-alt + shift - f : yabai -m window --toggle float
+ctrl + shift - f : yabai -m window --toggle float
 
 # create workspace on current display
 ctrl + shift - c : yabai -m space --create
@@ -8,14 +8,13 @@ ctrl + shift - c : yabai -m space --create
 ctrl + shift - d : yabai -m space --destroy
 
 # move focused window to previous workspace
-cmd + shift - left : yabai -m window --space prev
+ctrl + shift - left : yabai -m window --space prev
 
 # move focused window to next workspace
-cmd + shift - right : yabai -m window --space next
+ctrl + shift - right : yabai -m window --space next
 
 # cycle windows counterclockwise
-cmd + ctrl - right : bash ~/.config/yabai/cycle_windows.sh
+ctrl + alt - right : bash ~/.config/yabai/cycle_windows.sh
 
 # cycle windows clockwise
-cmd + ctrl - left : bash ~/.config/yabai/cycle_windows_reverse.sh
-
+ctrl + alt - left : bash ~/.config/yabai/cycle_windows_reverse.sh
