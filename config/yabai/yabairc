@@ -5,6 +5,7 @@ yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
 
 # bsp or float (default: bsp)
 yabai -m config layout bsp
+yabai -m config window_topmost off
 
 # Set all padding and gaps to 10pt (default: 0)
 padding_size=10
@@ -24,7 +25,7 @@ yabai -m config mouse_action1 move
 yabai -m config mouse_action2 resize
 
 # set focus follows mouse mode (default: off, options: off, autoraise, autofocus)
-yabai -m config focus_follows_mouse autoraise
+yabai -m config focus_follows_mouse autofocus
 
 # modify window shadows (default: on, options: on, off, float)
 # example: show shadows only for floating windows
@@ -36,12 +37,11 @@ yabai -m config window_opacity on
 yabai -m config active_window_opacity 1.0
 yabai -m config normal_window_opacity 0.9
 yabai -m rule --add app="^Code$" opacity=0.9
+yabai -m rule --add app="^Obsidian$" opacity=0.9
 yabai -m rule --add app="^Sonic Pi$" opacity=0.9
 
 # float system preferences
-yabai -m rule --add app="Preferences" manage=off
-yabai -m rule --add app="Install" manage=off
-yabai -m rule --add app="Parallels" manage=off
+yabai -m rule --add app="(Preferences|Install|Parallels|Steam)" manage=off
 
 # show digital colour meter topmost and on all spaces
 yabai -m rule --add app="^Digital Colou?r Meter$" sticky=on
