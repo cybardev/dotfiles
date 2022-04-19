@@ -7,18 +7,18 @@
 -	**WM** : [yabai](https://github.com/koekeishiya/yabai)
 -	**OS** : [MacOS Monterey](https://www.apple.com/macos/monterey/)
 -	**Terminal** : [iTerm2](https://iterm2.com/)
--	**Terminal Colours** : [Rose Pine](https://rosepinetheme.com/)
--	**Shell Prompt** : [typewritten](https://typewritten.dev/#/)
+-	**Terminal Colours** : [Solarized Dark](https://ethanschoonover.com/solarized/)
+-	**Shell Prompt** : [Zen.zsh](https://github.com/cybardev/zen.zsh)
 -	**Fetch** : [cutefetch](https://github.com/cybardev/cutefetch) & [neofetch](https://github.com/dylanaraps/neofetch)
--	**Editor** : [neovim](https://github.com/neovim/neovim) w/ [AstroVim](https://github.com/kabinspace/AstroVim)
+-	**Editor** : [neovim](https://github.com/neovim/neovim) w/ [AstroVim](https://github.com/AstroNvim/AstroNvim)
 -	**Music** : [ytpy](https://github.com/cybardev/ytpy)
--	**Wallpaper** : [link to image](https://wall.alphacoders.com/big.php?i=998790)
+-	**Wallpaper** : [Green M1 iMac default](https://wallpapercave.com/w/wp9233909)
 -	**Visualizer** : [cava](https://github.com/karlstav/cava)
 -	**Hotkeys** : [shkd](https://github.com/koekeishiya/skhd)
 -	**Dotfiles** : [git directory](https://github.com/cybardev/dotfiles/tree/main/config)
 -	**Screenshots** : [git directory](https://github.com/cybardev/dotfiles/tree/main/screenshots)
 
-To get the Hex colour codes for the `cava` gradient, I used this site: [cssgradient.io](https://cssgradient.io/)
+To get the Hex colour codes for the `cava` gradient, I used this site: [coolors.co](https://coolors.co/gradient-maker/004347-00CAD0)
 
 **Raster Graphics Editor** : [GIMP](https://www.gimp.org/) (used to merge screenshots)
 
@@ -36,5 +36,7 @@ Copy the desired config files into their appropriate locations in the `~/.config
 
 More in [screenshots](https://github.com/cybardev/dotfiles/tree/main/screenshots)
 
-![image](https://user-images.githubusercontent.com/50134239/160272943-802d91de-2cbf-4539-919f-4b52e2a36f65.png)
+![image](https://github.com/cybardev/dotfiles/raw/main/screenshots/Neon.png)
+
+![image](https://github.com/cybardev/dotfiles/raw/main/screenshots/Amethyst.png)
 
