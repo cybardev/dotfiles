@@ -37,6 +37,3 @@ Copy the desired config files into their appropriate locations in the `~/.config
 More in [screenshots](https://github.com/cybardev/dotfiles/tree/main/screenshots)
 
 ![image](https://github.com/cybardev/dotfiles/raw/main/screenshots/Neon.png)
-
-![image](https://github.com/cybardev/dotfiles/raw/main/screenshots/Amethyst.png)
-
