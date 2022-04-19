@@ -18,3 +18,4 @@ ctrl + alt - right : bash ~/.config/yabai/cycle_windows.sh
 
 # cycle windows clockwise
 ctrl + alt - left : bash ~/.config/yabai/cycle_windows_reverse.sh
+
