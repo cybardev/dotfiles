@@ -108,3 +108,6 @@ dist
 
 # VS Code artifacts
 .mypy_cache/
+
+# Python artifacts
+__pycache__
